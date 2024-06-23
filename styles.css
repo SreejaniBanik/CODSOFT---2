@@ -1,0 +1,71 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial;
+    line-height: 1.6;
+    background-color:#ffdb4d;
+    color: black;
+   
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+.about, .projects {
+    padding: 40px 0;
+}
+
+.projects {
+    background-color:#ffeb99 ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.projects .project {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+.projects .project:last-child {
+    border-bottom: none;
+}
+
+.projects h3 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
